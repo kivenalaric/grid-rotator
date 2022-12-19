@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.pagecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+p {
+  margin: 2px;
+}
+
+.rotator {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 350px;
+  margin: auto;
+  padding: 1rem;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0055ff;
+}
